@@ -6,15 +6,13 @@ import Zone from './components/Zone';
 export default function Main() {
   return (
     <main>
-      <section>
-        <ul className={styles.menu}>
-          <Zone taskState='wait' />
-          <Zone taskState='progress' />
-          <Zone taskState='done' />
-          <Zone taskState='issue' />
-          <Zone taskState='hold' />
-        </ul>
-      </section>
+      <ul className={styles.canbanBoardContainer}>
+        <Zone taskState='wait' taskStateName='대기중' />
+        <Zone taskState='progress' taskStateName='진행중' />
+        <Zone taskState='done' taskStateName='완료' />
+        <Zone taskState='issue' taskStateName='이슈' />
+        <Zone taskState='hold' taskStateName='홀드' />
+      </ul>
     </main>
   );
 }

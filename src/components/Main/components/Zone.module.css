@@ -1,25 +1,27 @@
-.wait {
+.board {
   width: 350px;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.wait {
   background-color: var(--color-lightYellow);
 }
 
 .progress {
-  width: 350px;
   background-color: var(--color-lightBlue);
 }
 
 .done {
-  width: 350px;
   background-color: var(--color-lightGreen);
 }
 
 .issue {
-  width: 350px;
   background-color: var(--color-lightRed);
 }
 
 .hold {
-  width: 350px;
   background-color: var(--color-lightGrey);
 }
 
@@ -27,4 +29,34 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.waitAdd {
+  color: var(--color-wait);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.progressAdd {
+  color: var(--color-progress);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.doneAdd {
+  color: var(--color-done);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.issueAdd {
+  color: var(--color-issue);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.holdAdd {
+  color: var(--color-hold);
+  font-size: 1.6rem;
+  cursor: pointer;
 }

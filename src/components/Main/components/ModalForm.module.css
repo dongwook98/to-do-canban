@@ -1,6 +1,5 @@
 /* 전체 화면을 덮는 배경 스타일 */
-.modal {
-  display: none; /* 초기에는 모달을 숨김 */
+.modalBackGround {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,22 +9,67 @@
 }
 
 /* 모달 내용을 감싸는 컨테이너 스타일 */
-.modal-content {
+.modalContainer {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff; /* 모달 배경색 */
-  padding: 20px;
+  padding: 3rem 5rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.6rem;
 }
 
 /* 모달 닫기 버튼 스타일 */
 .close {
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 10px;
-  font-size: 20px;
+  font-size: 2rem;
   cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+
+.button {
+  display: inline;
+  padding: 0.6rem;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
 }

@@ -12,12 +12,12 @@
   --color-blue: #009cff;
   --color-lightGreen: #f2fcf7;
   --color-green: #07ce8c;
-  --color-yellow: #ffc60f;
   --color-lightYellow: #faf7e9;
-  --color-red: #ff3a4b;
+  --color-yellow: #ffc60f;
   --color-lightRed: #fff0f2;
-  --color-grey: #8a8e98;
-  --color-lightGrey: #bdc0c6;
+  --color-red: #ff3a4b;
+  --color-lightGrey: #e5e5e5;
+  --color-grey: #808080;
 }
 
 body {
@@ -53,4 +53,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
 }
