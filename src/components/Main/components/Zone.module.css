@@ -1,29 +1,29 @@
-.menu__wait {
+.wait {
   width: 350px;
   background-color: var(--color-lightYellow);
 }
 
-.menu__progress {
+.progress {
   width: 350px;
   background-color: var(--color-lightBlue);
 }
 
-.menu__done {
+.done {
   width: 350px;
   background-color: var(--color-lightGreen);
 }
 
-.menu__issue {
+.issue {
   width: 350px;
   background-color: var(--color-lightRed);
 }
 
-.menu__hold {
+.hold {
   width: 350px;
   background-color: var(--color-lightGrey);
 }
 
-.menu__title {
+.title {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
