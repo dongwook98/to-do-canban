@@ -1,0 +1,30 @@
+.menu__wait {
+  width: 350px;
+  background-color: var(--color-lightYellow);
+}
+
+.menu__progress {
+  width: 350px;
+  background-color: var(--color-lightBlue);
+}
+
+.menu__done {
+  width: 350px;
+  background-color: var(--color-lightGreen);
+}
+
+.menu__issue {
+  width: 350px;
+  background-color: var(--color-lightRed);
+}
+
+.menu__hold {
+  width: 350px;
+  background-color: var(--color-lightGrey);
+}
+
+.menu__title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}

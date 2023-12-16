@@ -1,3 +1,25 @@
+:root {
+  /* App Colors */
+  --color-wait: var(--color-yellow);
+  --color-progress: var(--color-blue);
+  --color-done: var(--color-green);
+  --color-issue: var(--color-red);
+  --color-hold: var(--color-grey);
+
+  /* Colors */
+  --color-white: #ffffff;
+  --color-lightBlue: #f1f7ff;
+  --color-blue: #009cff;
+  --color-lightGreen: #f2fcf7;
+  --color-green: #07ce8c;
+  --color-yellow: #ffc60f;
+  --color-lightYellow: #faf7e9;
+  --color-red: #ff3a4b;
+  --color-lightRed: #fff0f2;
+  --color-grey: #8a8e98;
+  --color-lightGrey: #bdc0c6;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +32,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
